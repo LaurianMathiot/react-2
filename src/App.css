@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Lato';
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 2vh 10vh;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+}
+
+header a {
+  color: white;
+}
+
+.flex-container {
+  padding: 2vh 10vh;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px
+}
+
+h2 {
+  grid-column: 1/9;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+form {
+  grid-column: 1/9;
+  margin: auto;
+  padding: 2vh 10vh;
+  text-align: center;
+}
+
+.meal-card {
+  width: 10vw;
+  margin: auto;
+  text-align: center;
+}
+
+.meal-card img {
+  width: 100px;
+  border-radius: 20px;
+}
